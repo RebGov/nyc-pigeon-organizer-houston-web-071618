@@ -1,10 +1,11 @@
 def nyc_pigeon_organizer(data)
- # reorganized_pigeons = {}
-  #data.each do |first, p_data|
-   p_data.each do |pigion, attribute_data|
-    attribute_data.each do |attribute, string_value|
-     if reorganized_pigeons[pigeon].nil?
-       reorganized_pigeons[pigeon] = {}
+  reorganized_pigeons = {}
+  data.each do |attribute, attribute_data|
+    attribute_data.each do |trates, pigeons|
+      pigeons.each do |name|
+        reorganized_pigeons[name] || = {}
+     organized[name][attribute] || = []
+     reorganized_pigeons[pigeon] = {}
 
 
 def nyc_pigeon_organizer(data)
@@ -21,3 +22,18 @@ end
 
 
 
+# def nyc_pigeon_organizer(data)
+#   organized = {}
+
+#   data.each do |trait, options|
+#     options.each do |option, pigeons|
+#       pigeons.each do |pigeon|
+#         organized[pigeon] ||= {}
+#         organized[pigeon][trait] ||= []
+#         organized[pigeon][trait] << option.to_s
+#       end
+#     end
+#   end
+
+#   organized
+# end
