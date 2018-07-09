@@ -4,7 +4,7 @@ def nyc_pigeon_organizer(data)
     attribute_data.each do |trates, pigeons|
       pigeons.each do |name|
         reorganized_pigeons[name] || = {}
-     organized[name][attribute] || = []
+     reorganized_pigeonsorganized[name][attribute] || = []
      reorganized_pigeons[pigeon] = {}
 
 
